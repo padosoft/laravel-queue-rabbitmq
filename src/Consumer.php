@@ -33,7 +33,7 @@ class Consumer extends Worker
     protected $channel;
 
     /** @var object|null */
-    protected $currentJob;
+    public $currentJob;
 
     public function setContainer(Container $value): void
     {
